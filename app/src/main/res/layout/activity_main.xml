@@ -26,4 +26,26 @@
         android:layout_marginTop="59dp"
         android:onClick="Select"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vorschlag"
+        android:id="@+id/button3"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="Vorschlag"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VorschlagAnnahme"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="58dp"
+        android:onClick="VorschlagAnnahme"/>
+
 </RelativeLayout>
